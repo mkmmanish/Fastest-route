@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply antialiased bg-[#0A0A0B] text-slate-300;
+  }
+}
+
+@layer components {
+  .bento-card {
+    @apply bg-white/5 rounded-2xl border border-white/10 p-5 backdrop-blur-sm transition-all duration-300;
+  }
+}

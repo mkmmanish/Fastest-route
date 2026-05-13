@@ -1,0 +1,6 @@
+{
+  "name": "Pathfinding Visualizer",
+  "description": "An interactive, step-by-step visualization of Dijkstra's algorithm and other shortest path algorithms in complex networks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
